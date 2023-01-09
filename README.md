@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link]((https://github.com/Amrit131/Awesome-Books))
+[Live Demo Link]((https://martinkarugaba.github.io/awesome_books/))
 
 ## To get a local copy up and running follow these simple example steps.
 
