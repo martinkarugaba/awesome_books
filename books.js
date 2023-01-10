@@ -35,10 +35,10 @@ function display() {
   books.forEach((section, i) => {
     display += `
     <div>
-    <p>${section.title}</p>
-    <p>${section.author}</p>
-    <button onclick="remove(${i})">Remove</button>
-    <hr>
+      <p>${section.title}</p>
+      <p>${section.author}</p>
+      <button onclick="remove(${i})">Remove</button>
+      <hr>
     </div>
     `;
   });
@@ -55,8 +55,10 @@ const remove = (id) => {
   } else {
     books = JSON.parse(localStorage.getItem('Books'));
   }
+
   const BookIndex = books.findIndex((item, i) => i === id);
   books.splice(BookIndex, 1);
+
   localStorage.setItem('Books', JSON.stringify(books));
   display();
 };
