@@ -1,62 +1,120 @@
-# Awesoom Books Project
+# awesome_books
 
-- This is repository in which I am making a project called awesome books in which I can add and remove book names and their author names.
+<a name="readme-top"></a>
 
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-- Html, Css, JavaScript
-- Github, Git
+# 📖 [About the Project] <a name="about-project"></a>
 
-## Live Demo
+**[awesome books]** is a project that displays a list of books.
 
-[Live Demo Link](https://martinkarugaba.github.io/awesome_books/)
+## 🛠 Built With <a name="built-with"></a>
 
-## To get a local copy up and running follow these simple example steps.
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Styling</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Interactivity</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/javascript/">JavaScript</a></a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[Form]**
+- A form that requires you to input the title of the book plus the author.
+
+- **[List of books]**
+- After you submit the form above, your entry is added to the list of books page
+
+- **[Contact Section]**
+- THisis a form that you can fill if you'd like to contact the creator of this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://martinkarugaba.github.io/awesome_books/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+- Clone the repository
+- Install dependencies
+- To install all dependencied, run `npm install` in your terminal.
 
 ### Prerequisites
-Please make sure you are up to date if you have been working on this project. If you are new just simply clone the repository.
 
-### Setup
-There is no specific setup needed for this project. You will just need to clone the repository and then work on the project.
+In order to run this project you need:
+
+1. [LiverServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+1. [FiveServer] [LiverServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+   )
 
 ### Install
-Ther are no specific installations needed for this project apart from your code editor and git bash.
 
-### Usage
-Anyone can use this project by giving proper credit.
+Install this project with:
 
+```cd awesome_bookd
+npm install
+```
 
-
-## Authors
-
-👤 **Amrit Mishra**
-
-- GitHub: [@githubhandle](https://github.com/Amrit131)
-- Twitter: [@twitterhandle](https://twitter.com/i_ammrit)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mishra-amrit/)
+## 👥 Authors <a name="authors"></a>
 
 👤 **Martin Karugaba**
 
 - GitHub: [@githubhandle](https://github.com/martinkarugaba)
 - Twitter: [@twitterhandle](https://twitter.com/martin_karugaba)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/martin-karugaba-822442173)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## 📝 License <a name="license"></a>
 
-## Acknowledgments
+This project is [MIT](./LICENSE) licensed.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
