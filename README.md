@@ -104,6 +104,14 @@ npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- [🔭 Future Features](#future-features)
+
+- **[Navbar]**
+- This will enable users to easil navigate the different sections of the project.
+
+- **[Contact Form]**
+- To enable visitors contact the creator of this project.
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
