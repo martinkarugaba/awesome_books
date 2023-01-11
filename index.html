@@ -11,29 +11,65 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="content">
-      <h1 class="heading">All awesome books</h1>
-      <div class="books"></div>
-      <hr />
+    <header class="books-select">
+      <h2 class="book-selector">Awesome Books</h2>
+      <ul class="nav-links">
+        <li class="linksname"><a id="link-list">List</a></li>
+        <li class="linksname"><a id="link-add">Add new</a></li>
+        <li class="linksname"><a id="link-contact">Contact</a></li>
+      </ul>
+    </header>
+    <span class="date">
+      <p class="date-time">November 30th 2022 | 18:37 PM</p>
+    </span>
+    <section class="books-container">
+      <div class="book-shelf">
+        <h2 class="books-title">All Awesome Books</h2>
+        <p class="book-list"></p>
+      </div>
       <form class="form">
         <h2 class="heading1">Add new Books</h2>
-        <input
-          type="text"
-          id="title"
-          name="title"
-          placeholder="Title"
-          required
-        />
-        <input
-          type="text"
-          id="author"
-          name="author"
-          placeholder="Author"
-          required
-        />
-        <button class="add-btn" type="submit">Add</button>
+        <ul class="addList">
+          <li class="desc">
+            <input
+              type="text"
+              id="title"
+              name="title"
+              placeholder="Title"
+              required
+            />
+          </li>
+          <li class="desc">
+            <input
+              type="text"
+              id="author"
+              name="author"
+              placeholder="Author"
+              required
+            />
+          </li>
+          <li class="desc" id="button-li">
+            <button class="add-btn" type="submit">Add</button>
+          </li>
+        </ul>
       </form>
+    </section>
+    <div class="contact">
+      <h2 class="contact-title">Contact Information</h2>
+      <p>
+        Do you have any questions or you just want to say 'Hello'?
+        <br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>Our phone number: 004368663442</li>
+        <li>Our address: Street Name, 22, 84603, City, Country</li>
+      </ul>
     </div>
+    <footer class="footer">
+      <h3 class="footer-title">Copyright</h3>
+    </footer>
     <script src="books.js"></script>
   </body>
 </html>
