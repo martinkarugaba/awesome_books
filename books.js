@@ -1,13 +1,18 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable max-classes-per-file */
-class Book {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-}
+import Book from './book.js';
 
 const book = document.getElementsByClassName('books')[0];
+let dp = '';
+
+const showBooks = () => {
+   const books = display.getBooks();
+  books.forEach((book, i) => {
+    dp += `
+        <div class="allbooks">
+          <p>"${book.title}" by ${book.author}</p>
+          <button class="removeBtn" onclick="display.removeBook(${i})">Remove</button>
+        </div>`;
+  });
+}
 
 class display {
   static getBooks() {
@@ -18,19 +23,6 @@ class display {
       books = JSON.parse(localStorage.getItem('books'));
     }
     return books;
-  }
-
-  static displayBooks() {
-    const books = display.getBooks();
-    let dp = '';
-    books.forEach((book, i) => {
-      dp += `
-        <div class="allbooks">
-          <p>"${book.title}" by ${book.author}</p>
-          <button class="removeBtn" onclick="display.removeBook(${i})">Remove</button>
-        </div>`;
-    });
-    book.innerHTML = dp;
   }
 
   static addBook() {
@@ -45,6 +37,12 @@ class display {
     }
   }
 
+  static displayBooks() {
+   
+    showBooks();
+    book.innerHTML = dp;
+  }
+
   static removeBook(id) {
     const books = display.getBooks();
     const bookIndex = books.findIndex((item, i) => i === id);
@@ -56,11 +54,24 @@ class display {
 
 window.addEventListener('DOMContentLoaded', () => {
   display.displayBooks();
+
+  //const removeBtns = document.querySelectorAll('.removeBtn');
+  //console.log(removeBtns);
+
+  //removeBtns.forEach((btn, i) => {
+  //  btn.addEventListener('click', () => {
+  //    display.removeBook(i);
+  //  });
+  //});
 });
 
+// add a book
 const form = document.querySelector('.form');
 form.addEventListener('submit', (evt) => {
   evt.preventDefault();
   display.addBook();
   form.reset();
 });
+
+// onclick="display.removeBook(${i})
+// remove a book
