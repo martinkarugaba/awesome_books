@@ -1,5 +1,7 @@
-import Storage from './localStorage';
-import Book from './book';
+// eslint-disable-next-line import/extensions
+import Storage from './localStorage.js';
+// eslint-disable-next-line import/extensions
+import Book from './book.js';
 
 const form = document.querySelector('.form');
 const bookTitle = document.querySelector('#title');
