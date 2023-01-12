@@ -1,5 +1,5 @@
-import Storage from './localStorage.js';
-import Book from './book.js';
+import Storage from './localStorage';
+import Book from './book';
 
 const form = document.querySelector('.form');
 const bookTitle = document.querySelector('#title');
