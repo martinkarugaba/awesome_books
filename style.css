@@ -97,20 +97,13 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 30px;
-  padding: 0 2.5rem 0 1rem;
   border-bottom: 1px solid black;
-}
-
-.book {
+  padding: 0.8rem 0.5rem;
   width: 98.65%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:  0.8rem 0.5rem;
 }
 
 .book:nth-of-type(odd) {
-  background-color: #ebebeb;
+  background-color: #d4d3d3;
   height: 50px;
 }
 
@@ -132,7 +125,6 @@ body {
 .remove {
   font-size: 0.9rem;
   padding: 0.4rem 1rem;
-  color: #fafafa;
   background-color: #fafafa;
   border: 2px solid #212121;
   box-shadow: 2px 2px #212121;
@@ -209,7 +201,7 @@ body {
   font-size: 20px;
 }
 
-.date{
+.date {
   font-size: 0.9rem;
 }
 
