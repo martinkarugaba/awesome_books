@@ -1,5 +1,7 @@
 # awesome_books
 
+![Continue solo](./img/continue_solo.png "permision to continue solo")
+
 <a name="readme-top"></a>
 
 # 📗 Table of Contents

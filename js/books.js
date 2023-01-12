@@ -33,26 +33,23 @@ class UI {
       const btnId = e.target.dataset.id;
       UI.removeArrayBook(btnId);
     });
-  } 
+  }
 
   static removeArrayBook(id) {
     booksArr = booksArr.filter((item) => item.id !== +id);
     Storage.addToStorage(booksArr);
-    console.log(booksArr);
   }
 }
 
 window.addEventListener('DOMContentLoaded', () => {
   UI.displayData();
   UI.removeBook();
-  console.log(booksArr);
 });
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const id = Math.random() * 1000000;
   const book = new Book(id, bookTitle.value, bookAuthor.value);
-  console.log(book);
   booksArr = [...booksArr, book];
   // dispay data
   UI.displayData();
