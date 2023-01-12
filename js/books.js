@@ -4,8 +4,8 @@ import Storage from './localStorage.js';
 import Book from './book.js';
 
 const form = document.querySelector('.form');
-const bookTitle = document.querySelector('#title');
-const bookAuthor = document.querySelector('#author');
+const bookTitle = document.querySelector('.title');
+const bookAuthor = document.querySelector('.author');
 const booksContainer = document.querySelector('[data-list]');
 
 let booksArr = Storage.getStorage();
@@ -15,11 +15,10 @@ class UI {
     const displayData = booksArr.map((item) => {
       const { id, title, author } = item;
       return `
-        <div class="book">
-          <p>${title}</p>
-          <p>${author}</p>
+        <li class="book">
+          <p><strong>"${title}"</strong> by ${author}</p>
           <button class="remove" data-id=${id}>remove</button>
-        </div>
+        </li>
       `;
     });
     booksContainer.innerHTML = displayData.join(' ');
