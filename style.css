@@ -145,7 +145,7 @@ li {
   margin-top: 10px;
 }
 
-.allbooks {
+.book {
   width: 98.65%;
   display: flex;
   justify-content: space-between;
@@ -153,27 +153,27 @@ li {
   padding: 0 0.5rem 0 0.5rem;
 }
 
-.allbooks:nth-of-type(odd) {
+.book:nth-of-type(odd) {
   background-color: #d3d3d3;
   height: 50px;
 }
 
-.allbooks:nth-of-type(even) {
+.book:nth-of-type(even) {
   background-color: #fff;
   height: 50px;
 }
 
-.allbooks p {
-  font-size: 18px;
-  font-weight: 700;
+.book p {
+  font-size: 1.2rem;
 }
 
-.removeBtn {
+.remove {
   width: 15%;
   height: 30px;
   border: 3px solid black;
   background-color: white;
   box-shadow: 3px 2px 0 black;
+  cursor: pointer;
 }
 
 .contact {
@@ -186,7 +186,12 @@ li {
   margin-bottom: 70px;
 }
 
-.contact-title {
+form input {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.heading1 {
   text-align: center;
   margin-bottom: 20px;
 }

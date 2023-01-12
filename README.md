@@ -1,5 +1,7 @@
 # awesome_books
 
+![Continue solo](./img/continue_solo.png "permision to continue solo")
+
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -20,7 +22,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 # 📖 [About the Project] <a name="about-project"></a>
@@ -105,6 +106,17 @@ npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<<<<<<< HEAD
+=======
+- [🔭 Future Features](#future-features)
+
+- **[Navbar]**
+- This will enable users to easil navigate the different sections of the project.
+
+- **[Contact Form]**
+- To enable visitors contact the creator of this project.
+
+>>>>>>> 440399b9c9beabc7d080e73f00c5f862652b1611
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
