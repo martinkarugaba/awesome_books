@@ -12,9 +12,16 @@
   </head>
   <body>
     <div class="content">
-      <h1 class="heading">Awesome Books</h1>
-      <section class="books"></section>
-      <form class="form">
+      <h1 class="heading">All awesome books</h1>
+
+      <!-- books container -->
+      <div class="books" data-list>
+      </div>
+      <hr />
+
+      <!-- form -->
+      <form class="form" data-form>
+        <h2 class="heading1">Add new Books</h2>
         <input
           type="text"
           id="title"
@@ -29,9 +36,10 @@
           placeholder="Author"
           required
         />
-        <button class="add-btn" type="button">Add</button>
+        <button class="add-btn" type="submit">Add</button>
       </form>
     </div>
-    <script src="books.js"></script>
+    
+    <script type="module" src="./js/books.js"></script>
   </body>
 </html>
