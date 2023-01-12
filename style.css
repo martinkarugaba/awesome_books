@@ -38,7 +38,7 @@ hr {
   border: 2px solid black;
 }
 
-.allbooks {
+.book {
   width: 98.65%;
   display: flex;
   justify-content: space-between;
@@ -46,22 +46,22 @@ hr {
   padding: 0 0.5rem 0 0.5rem;
 }
 
-.allbooks:nth-of-type(odd) {
+.book:nth-of-type(odd) {
   background-color: #d3d3d3;
   height: 50px;
 }
 
-.allbooks:nth-of-type(even) {
+.book:nth-of-type(even) {
   background-color: #fff;
   height: 50px;
 }
 
-.allbooks p {
+.book p {
   font-size: 18px;
   font-weight: 700;
 }
 
-.removeBtn {
+.remove {
   width: 15%;
   height: 30px;
   border: 3px solid black;
