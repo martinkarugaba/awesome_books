@@ -1,4 +1,6 @@
+// eslint-disable-next-line import/extensions
 import Storage from './localStorage.js';
+// eslint-disable-next-line import/extensions
 import Book from './book.js';
 
 const form = document.querySelector('.form');
