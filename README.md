@@ -108,11 +108,7 @@ npm install
 
 - [🔭 Future Features](#future-features)
 
-- **[Navbar]**
-- This will enable users to easil navigate the different sections of the project.
-
-- **[Contact Form]**
-- To enable visitors contact the creator of this project.
+- No future features expected at the moment, in case there are, this section will be updated with the specific feature.
 
 ## 🤝 Contributing <a name="contributing"></a>
 
